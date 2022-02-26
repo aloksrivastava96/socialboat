@@ -1,0 +1,62 @@
+.profile {
+  margin: 5rem auto;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.2);
+  width: 80rem;
+  height: 35rem;
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+  background-color: #f4f0fa;
+  overflow-y: hidden;
+  overflow-y: scroll;
+}
+
+.profile-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-url-div {
+  display: flex;
+  flex-direction: row;
+  padding-left: 45%;
+}
+
+.middle-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.pic {
+  height: 7vmin;
+  border-radius: 7vh;
+}
+
+.fb-div {
+  padding-top: 3rem;
+  padding-right: 1rem;
+}
+
+.insta-div {
+  padding-top: 3rem;
+  padding-left: 1rem;
+}
+
+.linkedin-div {
+  padding-bottom: 1rem;
+}
+
+.profile-name-div {
+}
+
+.bio {
+  color: rgba(130, 130, 130, 0.7);
+}
+
+.notFound {
+  height: 10rem;
+  width: 10rem;
+  position: absolute;
+  top: 50%;
+  left: 44%;
+}
